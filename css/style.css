@@ -3,7 +3,7 @@
   background-color: #2e043d;
 } 
 .carousel-inner .carousel-item img {
-  max-width: 80%; 
+  max-width: 100%;
   height: auto;
 }
 .card-custom {
