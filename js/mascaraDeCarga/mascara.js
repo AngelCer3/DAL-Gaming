@@ -19,3 +19,14 @@ function mascaraObloqueo() {
 
     setTimeout($.unblockUI, 1600);
 }
+document.addEventListener("DOMContentLoaded", () =>{
+    let altura = document.getElementById('navSolido').offsetTop;
+    window.addEventListener("scroll", () => {
+        if (window.scrollY  > altura) {
+           document.getElementById('navSolido').classList.add('menu-fixed');
+        } else {
+           document.getElementById('navSolido').classList.remove('menu-fixed');
+        }
+    });
+
+});
