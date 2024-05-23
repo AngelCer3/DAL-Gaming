@@ -5,7 +5,7 @@ $(document).ready(function() {
 function mascaraObloqueo() {
     $.blockUI({
         //AQUI SOLOCA CAMBIA LA IMG Y COLOCA EL ORDEN DE TUS CARPETAS PARA QUE FUNCIONE BIEN
-        message: ' <img src="../../img/MascaraCargaSinFondo.gif" class="img-fluid" width="500" height="500">',
+        message: ' <img src="../img/MascaraCargaSinFondo.gif" class="img-fluid" width="500" height="500">',
         css: {
             border: 'none',
             // padding: '15px', 
