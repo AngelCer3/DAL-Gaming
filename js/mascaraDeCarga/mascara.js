@@ -4,17 +4,18 @@ $(document).ready(function() {
 
 function mascaraObloqueo() {
     $.blockUI({
-        // Usa la URL completa de la imagen
-        message: '<img src="https://angelcer3.github.io/DAL-Gaming/img/MascaraCargaSinFondo.gif" class="img-fluid" width="500" height="500">',
+        //AQUI SOLOCA CAMBIA LA IMG Y COLOCA EL ORDEN DE TUS CARPETAS PARA QUE FUNCIONE BIEN
+        message: ' <img src="../../img/MascaraCargaSinFondo.gif" class="img-fluid" width="500" height="500">',
         css: {
             border: 'none',
+            // padding: '15px', 
             backgroundColor: 'rgba(138,221,45,0)',
             '-webkit-border-radius': '10px',
             '-moz-border-radius': '10px',
-            color: '#FFFFFF'
+            // opacity: .5, 
+            color: '#FFFFFF '
         }
     });
 
-    // Asegúrate de que la imagen tenga tiempo suficiente para cargarse
     setTimeout($.unblockUI, 1600);
 }
