@@ -3,19 +3,21 @@ $(document).ready(function() {
 });
 
 function mascaraObloqueo() {
+    const imagePath = '../../img/MascaraCargaSinFondo.gif';
+    console.log(`Loading image from: ${imagePath}`);
+
     $.blockUI({
-        //AQUI SOLOCA CAMBIA LA IMG Y COLOCA EL ORDEN DE TUS CARPETAS PARA QUE FUNCIONE BIEN
-        message: ' <img src="../img/MascaraCargaSinFondo.gif" class="img-fluid" width="500" height="500">',
+        // Cambia la ruta de la imagen si es necesario
+        message: `<img src="${imagePath}" class="img-fluid" width="500" height="500">`,
         css: {
             border: 'none',
-            // padding: '15px', 
             backgroundColor: 'rgba(138,221,45,0)',
             '-webkit-border-radius': '10px',
             '-moz-border-radius': '10px',
-            // opacity: .5, 
-            color: '#FFFFFF '
+            color: '#FFFFFF'
         }
     });
 
+    // Asegúrate de que la imagen tenga tiempo suficiente para cargarse
     setTimeout($.unblockUI, 1600);
 }
