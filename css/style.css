@@ -84,3 +84,9 @@
 .navbar-synthwave .navbar-toggler-icon img {
   filter: drop-shadow(0 0 5px #036356);
 }
+.menu-fixed{ 
+  position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 1000;
+}
