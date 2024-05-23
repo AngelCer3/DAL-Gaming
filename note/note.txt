@@ -1,0 +1,61 @@
+Menus {
+
+    Carrusel {
+
+        3 Img 
+
+        Descripcion De Pagina Y ALgunos Juegos
+
+    }
+
+
+    Catalogo {
+
+        Juegos (BotonEnCard){
+
+            Va A Contener La Descripcion De Los Juegos Lo Mismo Para El De Peliculas Y Series 
+            Pero Hay Se Coloca Videos De You Tube
+
+        }
+
+    }
+
+    Peliculas y Series {
+
+        Peliculas Basadas En Juegos
+
+    }
+
+    Informacion Del Sitio {
+
+        Descrion De Nosotos
+
+    }
+
+
+}
+
+Colores De La Pagina Principales {
+
+    Rojo 
+    Negro
+    Blanco
+
+}
+
+Img {
+
+    Nota :
+        .webp
+        No .png .jpg entre otros esos no
+    
+}
+
+Que Tiene Que Llevar El Proyecto  {
+
+    Aos Animation
+    Mascara De Carga Del Diego
+    Subir A Git - > Crear Una Rama Con El Nombre gh-pague Para Que Lo Abran En Sus Celulares
+    Pagina De Una Sola Vista
+
+}
