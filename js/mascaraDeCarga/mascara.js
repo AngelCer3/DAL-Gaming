@@ -3,12 +3,9 @@ $(document).ready(function() {
 });
 
 function mascaraObloqueo() {
-    const imagePath = '../../img/MascaraCargaSinFondo.gif';
-    console.log(`Loading image from: ${imagePath}`);
-
     $.blockUI({
-        // Cambia la ruta de la imagen si es necesario
-        message: `<img src="${imagePath}" class="img-fluid" width="500" height="500">`,
+        // Usa la URL completa de la imagen
+        message: '<img src="https://angelcer3.github.io/DAL-Gaming/img/MascaraCargaSinFondo.gif" class="img-fluid" width="500" height="500">',
         css: {
             border: 'none',
             backgroundColor: 'rgba(138,221,45,0)',
